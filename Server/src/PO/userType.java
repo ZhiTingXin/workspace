@@ -1,0 +1,5 @@
+package PO;
+
+public enum userType {
+	CUSTOMER,HOTELSTAFF,SYSTEMSTAFF,SYSTEMANAGER
+}

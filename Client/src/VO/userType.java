@@ -1,0 +1,5 @@
+package VO;
+
+public enum userType {
+	CUSTOMER,HOTELSTAFF,SYSTEMSTAFF,SYSTEMANAGER
+}
