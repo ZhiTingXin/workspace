@@ -9,14 +9,14 @@ import blservice.hotel_blservice.hotel_blservice;
 
 public class hotel_bl implements  hotel_blservice{
 	ArrayList<hotelVO> hotelList = new ArrayList<hotelVO>();
-	@Override
+	
 	public hotelVO getHotel(String hotel_name) {
 		hotelVO hotel = new hotelVO(null, "123", "dasbd", "dasdjhau", null, null);
 		hotel.getHotelName();
 		return hotel;
 	}
 
-	@Override
+	
 	public resultMessage modifyHotel(hotelVO hotel) {
 		hotel.getHotelName();
 		return resultMessage.SUCCESSED;
